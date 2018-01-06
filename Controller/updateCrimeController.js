@@ -22,17 +22,17 @@
               };
               res.send(successJson);
               //call to invoke python script.
-              invokePredictionScript();
+              invokePredictionScript(data.insertId,req.body.latitude,req.body.longitude);
           }
        });
     };
-    var invokePredictionScript=function () {
+    var invokePredictionScript=function (crimeId,lat,longi) {
         var options = {
             mode: 'text',
             pythonPath: 'C:/Program Files/Python36/python.exe',
             pythonOptions: [],
             scriptPath: 'C:/Users/Sangameswaran/WebstormProjects/WonderWoman/PythonScripts',
-            args: ['Fuck At last']
+            args: [crimeId,lat,longi]
         };
         PythonShell.run('womenSafety.py', options, function (err, results) {
             if (err) throw err;

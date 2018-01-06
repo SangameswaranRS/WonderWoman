@@ -24,5 +24,12 @@
     Router.post('/updateUser',function (req,res) {
         updateUserController.updateUserInfo(req,res);
     });
+    Router.get('/getCopNumber',function (req,res) {
+       var successJson={
+           statusCode : 200,
+           message : '9677947957'
+       };
+       res.send(successJson);
+    });
     module.exports=Router;
 })();
