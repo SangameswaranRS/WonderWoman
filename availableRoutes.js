@@ -8,6 +8,7 @@
     var getAllCrimeInfoController=require('./Controller/getAllCrimeInfoController');
     var updateUserController=require('./Controller/updateUserController');
     var getUserInfoController=require('./Controller/getUserInfoController');
+    var queryLocationController=require('./Controller/queryLocationController');
     Router.get('/testConnection',function (req,res) {
        res.send("Connection Ok");
     });
@@ -38,6 +39,9 @@
     });
     Router.post('/getUserInfo',function (req,res) {
         getUserInfoController.getUserInfo(req,res);
+    });
+    Router.post('/queryLocation',function (req,res) {
+        queryLocationController.updateQuery(req,res);
     });
     module.exports=Router;
 })();
