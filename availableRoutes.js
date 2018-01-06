@@ -5,7 +5,9 @@
     var updateCrimeController=require('./Controller/updateCrimeController');
     var updatePredictionController=require('./Controller/updatePredictonController');
     var getPredictionForCrimeIdController=require('./Controller/getPredictionForCrimeIdController');
+    var getAllCrimeInfoController=require('./Controller/getAllCrimeInfoController');
     var updateUserController=require('./Controller/updateUserController');
+    var getUserInfoController=require('./Controller/getUserInfoController');
     Router.get('/testConnection',function (req,res) {
        res.send("Connection Ok");
     });
@@ -30,6 +32,12 @@
            message : '9677947957'
        };
        res.send(successJson);
+    });
+    Router.get('/getAllCrimeInfo',function (req,res) {
+        getAllCrimeInfoController.getAllCrime(req,res);
+    });
+    Router.post('/getUserInfo',function (req,res) {
+        getUserInfoController.getUserInfo(req,res);
     });
     module.exports=Router;
 })();

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d17417f6-1b2b-4093-8a42-4d19992ce70b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonScripts/crime.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/updateCrimeController.js" afterPath="$PROJECT_DIR$/Controller/updateCrimeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonScripts/womenSafety.py" afterPath="$PROJECT_DIR$/PythonScripts/womenSafety.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/getAllCrimeInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/getUserInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataAccessObject/getAllCrimeInfoDAO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataAccessObject/getUserInfoDAO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/availableRoutes.js" afterPath="$PROJECT_DIR$/availableRoutes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,20 +22,69 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="availableRoutes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="availableRoutes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/availableRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="29" />
               <folding>
-                <element signature="e#550#591#0" expanded="false" />
-                <element signature="e#643#700#0" expanded="false" />
-                <element signature="e#753#816#0" expanded="false" />
-                <element signature="e#883#962#0" expanded="false" />
-                <element signature="e#1027#1109#0" expanded="false" />
-                <element signature="e#1161#1222#0" expanded="false" />
-                <element signature="e#1275#1410#0" expanded="false" />
+                <element signature="e#712#753#0" expanded="false" />
+                <element signature="e#805#862#0" expanded="false" />
+                <element signature="e#915#978#0" expanded="false" />
+                <element signature="e#1045#1124#0" expanded="false" />
+                <element signature="e#1323#1384#0" expanded="false" />
+                <element signature="e#1437#1572#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getUserInfoController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/getUserInfoController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getUserInfoDAO.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataAccessObject/getUserInfoDAO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getAllCrimeInfoController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/getAllCrimeInfoController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getAllCrimeInfoDAO.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataAccessObject/getAllCrimeInfoDAO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getPredictionForCrimeIdController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/getPredictionForCrimeIdController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="womenSafety.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="womenSafety.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonScripts/womenSafety.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -100,9 +151,13 @@
         <option value="$PROJECT_DIR$/DataAccessObject/updateUserDAO.js" />
         <option value="$PROJECT_DIR$/Controller/updateUserController.js" />
         <option value="$PROJECT_DIR$/middleware/dbConnectionHandler.js" />
-        <option value="$PROJECT_DIR$/availableRoutes.js" />
         <option value="$PROJECT_DIR$/Controller/updateCrimeController.js" />
         <option value="$PROJECT_DIR$/PythonScripts/womenSafety.py" />
+        <option value="$PROJECT_DIR$/DataAccessObject/getAllCrimeInfoDAO.js" />
+        <option value="$PROJECT_DIR$/Controller/getAllCrimeInfoController.js" />
+        <option value="$PROJECT_DIR$/DataAccessObject/getUserInfoDAO.js" />
+        <option value="$PROJECT_DIR$/Controller/getUserInfoController.js" />
+        <option value="$PROJECT_DIR$/availableRoutes.js" />
       </list>
     </option>
   </component>
@@ -167,6 +222,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PythonScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WonderWoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WonderWoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataAccessObject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,12 +359,12 @@
       <option name="presentableId" value="Default" />
       <updated>1515220268777</updated>
       <workItem from="1515220271434" duration="16262000" />
-      <workItem from="1515243885895" duration="7373000" />
+      <workItem from="1515243885895" duration="9500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23635000" />
+    <option name="totallyTimeSpent" value="25762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="0" width="1313" height="735" extended-state="0" />
@@ -355,13 +424,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#550#591#0" expanded="false" />
-            <element signature="e#643#700#0" expanded="false" />
-            <element signature="e#753#816#0" expanded="false" />
-            <element signature="e#883#962#0" expanded="false" />
-            <element signature="e#1027#1109#0" expanded="false" />
-            <element signature="e#1161#1222#0" expanded="false" />
-            <element signature="e#1275#1410#0" expanded="false" />
+            <element signature="e#712#753#0" expanded="false" />
+            <element signature="e#805#862#0" expanded="false" />
+            <element signature="e#915#978#0" expanded="false" />
+            <element signature="e#1045#1124#0" expanded="false" />
+            <element signature="e#1323#1384#0" expanded="false" />
+            <element signature="e#1437#1572#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -432,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/getPredictionForCrimeIdController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Connection/connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -482,22 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/availableRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#550#591#0" expanded="false" />
-            <element signature="e#643#700#0" expanded="false" />
-            <element signature="e#753#816#0" expanded="false" />
-            <element signature="e#883#962#0" expanded="false" />
-            <element signature="e#1027#1109#0" expanded="false" />
-            <element signature="e#1161#1222#0" expanded="false" />
-            <element signature="e#1275#1410#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonScripts/crime.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -527,6 +572,61 @@
         <state relative-caret-position="612">
           <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/getPredictionForCrimeIdController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObject/getAllCrimeInfoDAO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/getAllCrimeInfoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObject/getUserInfoDAO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/getUserInfoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/availableRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#712#753#0" expanded="false" />
+            <element signature="e#805#862#0" expanded="false" />
+            <element signature="e#915#978#0" expanded="false" />
+            <element signature="e#1045#1124#0" expanded="false" />
+            <element signature="e#1323#1384#0" expanded="false" />
+            <element signature="e#1437#1572#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
